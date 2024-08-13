@@ -18,7 +18,7 @@ sys.path.append('{}/third_party/AcademiCodec'.format(ROOT_DIR))
 sys.path.append('{}/third_party/Matcha-TTS'.format(ROOT_DIR))
 
 import argparse
-import gradio as gr
+import gradio as gr # type: ignore
 import numpy as np
 import torch
 import torchaudio
